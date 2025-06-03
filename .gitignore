@@ -1,0 +1,39 @@
+# Entornos virtuales
+venv/
+.env
+.env.*
+
+# Archivos de Python
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Archivos de logs y bases de datos
+*.log
+*.sqlite3
+
+# Archivos de configuración de usuario
+*.env
+*.local
+*.DS_Store
+*.pyo
+
+# Archivos de sistema
+Thumbs.db
+.DS_Store
+
+# Archivos de test y cobertura
+htmlcov/
+.tox/
+.coverage
+.coverage.*
+.cache
+.pytest_cache/
+
+# Archivos de IDEs
+.vscode/
+.idea/
+*.iml
+
+# Otros
+.mypy_cache/ 
